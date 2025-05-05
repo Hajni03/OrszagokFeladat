@@ -26,7 +26,7 @@ function loadCards(countries){
         <img src="${countries[key].media.flag}" alt="${countries[key].name}_zaszlo">
         <p><strong>Főváros:</strong>${countries[key].capital}</p>
         <p><strong>Pénznem:</strong>${countries[key].currency}</p>
-        <p><strong>Rövidítés</strong> ${countries[key].abbrevation}</p>
+        <p><strong>Rövidítés</strong> ${countries[key].abbreviation}</p>
         `;
 
         cardContainer.appendChild(card);
