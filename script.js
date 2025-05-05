@@ -31,4 +31,11 @@ function loadCards(countries){
 
         cardContainer.appendChild(card);
     }
+
+    /* Házifeladat:
+    -embléma
+    -telefon
+    -populáció
+    rákattintva az adott ország kártyájára POPUP ablakként - bezárható legyen
+    */
 }
